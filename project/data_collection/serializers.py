@@ -15,4 +15,4 @@ class SubwayPassengerCountSerializer(serializers.ModelSerializer):
 class SubwayPassengerDifferenceSerializer(serializers.ModelSerializer):
     class Meta:
         model = SubwayDailyTimeSlotPassengerDifference
-        fields = ['date', 'line_number', 'station_name', 'time_slot', 'difference']
+        fields = ['date', 'line_number', 'station_name', 'time_slot', 'difference', 'latitude', 'longitude']

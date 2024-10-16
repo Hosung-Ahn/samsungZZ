@@ -10,5 +10,6 @@ urlpatterns = [
     path(
         'api/subway-daily-passenger-difference/<str:date>/<str:line_number>/<str:station_name>/<str:time_slot>/', 
         SubwayDailyPassengerDifferenceView.as_view(),
+        name='subway-daily-passenger-difference'
     ),
 ]

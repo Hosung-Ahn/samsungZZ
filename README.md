@@ -24,6 +24,9 @@ delete from subway_monthly_time_slot_passenger_counts where line == "1호선" an
 1. 지하철 역별 위도 경도 데이터 로드
 2. 터미널에서 다음을 실행: `python manage.py fetch_subway_lat_lng_data`
 
+1. 지하철 호선별 시간대별 혼잡도 데이터 로드
+2. 터미널에서 다음을 실행 : `python manage.py fetch_degree_data`
+
 #### 초기화
 <ol>
 <li>지하철 역별 시간대별 승하차인원 데이터 초기화
